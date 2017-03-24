@@ -4,8 +4,19 @@
 	margin: 0;
 }
 
+.forkme {
+	top: 0;
+	left: 0;
+	width: 138px;
+	height: 136px;
+	z-index: 1;
+	position: fixed;
+	text-indent: -99999px;
+	background: url( "images/fork.png" ) no-repeat;
+}
+
 body {
-	font-size: 14px;		
+	font-size: 16px;		
 	background: #eee;
 	padding-top: 90px;
 	font-family: Arial, Helvetica, Sans-serif;
